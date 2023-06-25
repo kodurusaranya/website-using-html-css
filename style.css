@@ -1,0 +1,879 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+body{
+ margin: 50% auto;
+}
+
+.total{
+    align-items: center;
+    
+}
+
+/*  ----------NAV-BAR PART --------------    */
+
+.nav-bar{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    background-color: rgb(130, 226, 213);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar h1{ 
+    color: blueviolet;
+    font-size: 26px;
+    text-align: center;
+    padding-left: 15px;
+    font-family: 'Italianno', cursive;
+}
+
+
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    list-style: none;      
+}
+
+.nav-bar ul li{
+  list-style: none;
+  padding: 5px 10px;
+  margin-left: 8px;
+  margin-top: 8px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.nav-bar ul li:hover{
+    border: none;
+    /* padding: 9px 7px;  */
+    background-color: rgb(244, 248, 248);
+    color: rgb(67, 65, 65);
+    margin-right: 8px; 
+    
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* ------------------------------------------------------------ */
+
+/* ----------------------------content-part---------------------------- */
+
+.container{
+    background-color: bisque;
+    width: 1490.45px;
+    height: 700px;
+    top: 70px;
+    align-items: center;
+    position: absolute; 
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-between;
+   
+}
+
+.container1 input{ 
+    align-items: center;
+    background-color: black;
+    color: rgb(246, 246, 249);
+    margin-bottom: 10px;
+    
+    
+}
+.container1 p{
+    font-size: 30px;
+    display: flex;
+}
+
+img{
+    width: 300px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+
+/* ---------------------flowers part-------------------- */
+
+.container2{
+    background-color: rgb(183, 220, 248);  
+    width: 1529.54px;
+    height: 1440px;
+    top: 810.6px;
+    justify-content: space-between;
+    position: absolute;
+    padding-top: 40px;
+}
+.row-1{
+    display: flex;
+}
+.row-2{
+    display: flex;
+}
+.row-3{
+    display: flex;
+    align-items: center;
+}
+.rose{
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+}
+
+.rose h1{
+    color: rgb(244, 23, 23);
+    font-weight: bolder;
+   margin-top: -13px;
+   text-decoration: underline;
+}
+
+.rose p{
+    /* text-align: center; */
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.rose img{
+    width: 150px;
+    margin: 5px 10px;
+   
+}
+
+.rose button{
+    background-color: pink;
+    color: rgb(88, 0, 170);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* ------------------------------ gerbera ------------------------------ */
+
+.gerbera{
+
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+}
+.gerbera h1{
+    color: rgb(157, 23, 235);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.gerbera p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.gerbera img{
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    margin: 5px 10px;
+   
+
+}
+.gerbera button{
+    background-color: rgb(133, 221, 103);
+    color: rgb(184, 16, 66);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+
+
+/* ----------------------------------------- tulip ---------------------------------- */
+
+.tulip{
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+}
+.tulip h1{
+    color: rgb(204, 168, 4);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.tulip p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.tulip img{
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    margin: 5px 10px;
+   
+
+}
+.tulip button{
+    background-color: rgb(241, 165, 114);
+    color: rgb(10, 125, 0);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* --------------------------------daisies--------------------------------------- */
+
+.daisies{
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+
+}
+.daisies h1{
+    color: rgb(214, 24, 235);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.daisies p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.daisies img{
+    padding-top: 20px;
+    width: 250px;
+    height: 200px;
+    margin: 5px 10px;
+   
+
+}
+.daisies button{
+    background-color: rgb(221, 229, 75);
+    color: rgb(50, 47, 235);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* ------------------------------------orchid----------------------------------- */
+
+.orchid{
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+
+}
+.orchid h1{
+    color: rgb(145, 13, 13);
+    font-weight: bolder;
+   margin-top: -13px;
+   text-decoration: underline;
+
+}
+.orchid p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.orchid img{
+    width: 150px;
+    margin: 5px 10px;
+   
+
+}
+.orchid button{
+    background-color: rgb(160, 182, 249);
+    color: rgb(192, 98, 5);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* ------------------------------------------carnation---------------------------- */
+
+.carnation{
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+
+}
+.carnation h1{
+    color: rgb(238, 142, 17);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.carnation p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.carnation img{
+    padding-top: 20px;
+    width: 280px;
+    height: 200px;
+    margin: 5px 10px;
+
+}
+.carnation button{
+    background-color: rgb(11, 211, 218);
+    color: rgb(204, 5, 208);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* -----------------------------jasmin----------------------------------- */
+
+.jasmin{
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+.jasmin h1{
+    color: rgb(137, 137, 130);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.jasmin p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.jasmin img{
+    padding-top: 20px;
+    width: 270px;
+    height: 200px;
+    margin: 5px 10px;
+
+}
+.jasmin button{
+    background-color: rgb(240, 116, 234);
+    color: rgb(131, 38, 218);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* ----------------------------------lilies------------------------------------ */
+
+.lilies{
+    border-radius: 15px;
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+.lilies h1{
+    color: rgb(2, 13, 221);
+    font-weight: bolder;
+   margin-top: -9px;
+   text-decoration: underline;
+
+}
+.lilies p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.lilies img{
+    padding-top: 20px;
+    width: 270px;
+    height: 200px;
+    margin: 5px 10px;
+   
+
+}
+.lilies button{
+    background-color: rgb(243, 90, 87);
+    color: rgb(20, 232, 251);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+/* ----------------------------------gladiolus------------------------------------ */
+
+.gladiolus{
+   border-radius: 15px;
+   border: 2px solid grey;
+   margin-left: 250px;
+   margin-right: 150px;
+   align-items: center;
+   text-align: center;
+   width: auto;
+}
+.gladiolus h1{
+   color: rgb(188, 136, 2);
+   font-weight: bolder;
+   margin-top: -13px;
+   text-decoration: underline;
+
+}
+.gladiolus p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.gladiolus img{
+    width: 270px;                          
+    margin: 5px 10px;
+   
+
+}
+.gladiolus button{
+ 
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 9, 9);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* ---------------------------------------tuberose----------------------------- */
+
+.tuberose{
+    border: 2px solid grey;
+    margin: 30px 30px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+    border-radius: 15px;
+
+}
+.tuberose h1{
+    color: rgb(150, 150, 150);
+    font-weight: bolder;
+   margin-top: -13px;
+   text-decoration: underline;
+
+}
+.tuberose p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+.tuberose img{
+    width: 170px;
+    height: 270px;
+    margin: 5px 10px;
+   
+
+}
+.tuberose button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+}
+
+.color{
+    color: rgb(164, 133, 133);
+    text-decoration: underline overline rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 19px;
+}
+
+
+/* ------------------------------------------------------------------------------ */
+
+
+/*---------------------for mobile----------------------- */
+
+@media (max-width: 576px) { 
+
+     .nav-bar{
+        width: 100%; 
+         /* padding-bottom: 60px; */
+        align-items: center;
+        display: flex;
+        top: 0; 
+         position: fixed; 
+         justify-content: space-between; 
+         background-color: rgb(221, 116, 210);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    } 
+
+    .nav-bar h1{
+        color: blue;
+        font-size: 20px;
+       /* text-align: center; */
+       margin-left: 10px;
+       
+    }
+
+    .home{
+        display: none;
+    }
+
+    .contact-us{
+        display: none;
+    }
+     
+    .nav-bar ul li:hover{
+        background-color: rgb(119, 199, 234);
+        color: gold;
+    }
+
+    /* -------------- nav bar -------------------------- */
+
+    .container{
+        
+        width: 520.45px;
+        height: 450px;
+        top: 72px;
+        align-items: center;
+        position: absolute; 
+        background-image: url(images/rose.webp);
+        background-position: fixed;
+        background-repeat: no-repeat; 
+        
+    }
+
+    .whiterose{
+        display: none;
+    }
+
+    .container1 p{
+        font-size: 30px;
+        text-align: center;
+        padding: 70px 40px;
+       
+
+    }
+
+    /* -----------------flower cards---------- */
+    
+    .container2{
+        background-color: rgb(24, 239, 254);  
+        width: 560.45px;
+        height: 5100px;
+        top: 562.48px;
+        position: absolute;
+        padding-top: 40px;
+    }
+
+    .row-1{
+        flex-wrap: wrap;
+    }
+    .row-2{
+        flex-wrap: wrap;
+    }
+    .row-3{
+        flex-wrap: wrap;
+    }
+
+    .rose{
+        
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 450px;
+        background-color: bisque;
+        
+    }
+    
+    .rose img{
+       width: auto;
+      
+    }
+    
+    .rose button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    
+    }
+    
+    /* ------------------------------ gerbera ------------------------------ */
+    
+    .gerbera{
+    
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 410px;
+        background-color: bisque;
+    }
+
+    .gerbera img{
+       width: auto;
+       
+    }
+    .gerbera button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    
+    }
+    
+    
+    
+    /* ----------------------------------------- tulip ---------------------------------- */
+    
+    .tulip{
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 395px;
+        background-color: bisque;
+    
+    }
+
+    .tulip img{
+        width: auto;
+    }
+    .tulip button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* --------------------------------daisies--------------------------------------- */
+    
+    .daisies{
+       
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 410px;
+        background-color: bisque;
+    
+    }
+
+    .daisies img{
+        width: auto;
+       
+    }
+    .daisies button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* ------------------------------------orchid----------------------------------- */
+    
+    .orchid{
+        border: 2px solid grey;
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 470px;
+        background-color: bisque;
+    
+    }
+   
+    .orchid img{
+        width: auto; 
+    
+    }
+    .orchid button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* ------------------------------------------carnation---------------------------- */
+    
+    .carnation{
+        border: 2px solid grey;
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 410px;
+        background-color: bisque;
+    
+    }
+    
+    .carnation img{
+        
+        width: auto;
+    }
+    .carnation button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* -----------------------------jasmin----------------------------------- */
+    
+    .jasmin{
+    
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 410px;
+        background-color: bisque;
+    }
+   
+    .jasmin img{
+       width: auto;
+       
+    }
+    .jasmin button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* ----------------------------------lilies------------------------------------ */
+    
+    .lilies{
+    
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 395px;
+        background-color: bisque;
+    }
+   
+    .lilies img{
+       width: auto;
+        
+    }
+    .lilies button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* ----------------------------------gladiolus------------------------------------ */
+    
+    .gladiolus{
+    
+        border: 2px solid grey;
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 420px;
+        background-color: bisque;
+    }
+    
+    .gladiolus img{
+        width: auto;                          
+         
+    
+    }
+    .gladiolus button{
+     
+        margin : 10px ; 
+        margin-bottom: 100px;
+    }
+    
+    /* ---------------------------------------tuberose----------------------------- */
+    
+    .tuberose{
+        
+        margin: 40px 40px;
+        margin-left: 80px;
+        margin-right: 80px;
+        width: 100%;
+        height: 470px;
+        background-color: bisque;
+    }
+    
+    .tuberose img{
+        width: auto;
+    }
+    .tuberose button{
+        margin : 10px ; 
+        margin-bottom: 100px;
+    
+    }
+
+    .color{
+        background: rgb(180,58,177);
+        background: linear-gradient(90deg, rgba(180,58,177,1) 12%, rgba(134,29,253,1) 60%, rgba(120,227,237,1) 100%);
+        text-decoration: overline underline rgb(138, 133, 235);
+        font-weight: bolder;
+        color: white;
+    }
+    
+
+}

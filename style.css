@@ -53,7 +53,6 @@ body{
     background-color: rgb(244, 248, 248);
     color: rgb(67, 65, 65);
     margin-right: 8px; 
-    
     border-radius: 10px;
     cursor: pointer;
 }
@@ -62,8 +61,10 @@ body{
 /* ----------------------------content-part---------------------------- */
 
 .container{
-    background-color: bisque;
-    width: 1490.45px;
+     background-color: rgb(0, 0, 0); 
+    background-image: url(images/rose-2.webp);
+    /* width: 1490.45px; */
+    width: auto;
     height: 700px;
     top: 70px;
     align-items: center;
@@ -84,23 +85,18 @@ body{
     
 }
 .container1 p{
-    font-size: 30px;
-    display: flex;
+    margin-top: 230px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(251, 251, 251);
+    font-family: 'Poppins', sans-serif;
 }
 
-img{
-    width: 300px;
-    height: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-
-}
 
 /* ---------------------flowers part-------------------- */
 
 .container2{
-    background-color: rgb(183, 220, 248);  
+    background-color: pink;  
     width: 1529.54px;
     height: 1440px;
     top: 810.6px;
@@ -108,6 +104,19 @@ img{
     position: absolute;
     padding-top: 40px;
 }
+
+.container2 p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+
+}
+
+.container2 button{
+cursor: pointer;
+}
+
 .row-1{
     display: flex;
 }
@@ -120,6 +129,7 @@ img{
 }
 .rose{
     border: 2px solid grey;
+    background-color: rgb(183, 220, 248);
     margin: 30px 30px;
     align-items: center;
     text-align: center;
@@ -134,14 +144,6 @@ img{
    text-decoration: underline;
 }
 
-.rose p{
-    /* text-align: center; */
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
-}
-
 .rose img{
     width: 150px;
     margin: 5px 10px;
@@ -149,12 +151,12 @@ img{
 }
 
 .rose button{
-    background-color: pink;
+    background-color: rgba(173, 77, 93, 0.899);
     color: rgb(88, 0, 170);
     font-weight: bolder;
     padding: 3px 5px;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
 
 }
@@ -162,7 +164,7 @@ img{
 /* ------------------------------ gerbera ------------------------------ */
 
 .gerbera{
-
+    background-color: rgb(183, 220, 248);
     border: 2px solid grey;
     margin: 30px 30px;
     align-items: center;
@@ -175,13 +177,6 @@ img{
     font-weight: bolder;
    margin-top: -9px;
    text-decoration: underline;
-
-}
-.gerbera p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
 }
 .gerbera img{
@@ -208,6 +203,7 @@ img{
 /* ----------------------------------------- tulip ---------------------------------- */
 
 .tulip{
+    background-color: rgb(183, 220, 248);
     border: 2px solid grey;
     margin: 30px 30px;
     align-items: center;
@@ -222,13 +218,7 @@ img{
    text-decoration: underline;
 
 }
-.tulip p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .tulip img{
     padding-top: 20px;
     width: 250px;
@@ -250,6 +240,7 @@ img{
 /* --------------------------------daisies--------------------------------------- */
 
 .daisies{
+    background-color: rgb(183, 220, 248);
     border-radius: 15px;
     border: 2px solid grey;
     margin: 30px 30px;
@@ -265,13 +256,7 @@ img{
    text-decoration: underline;
 
 }
-.daisies p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .daisies img{
     padding-top: 20px;
     width: 250px;
@@ -294,6 +279,7 @@ img{
 /* ------------------------------------orchid----------------------------------- */
 
 .orchid{
+    background-color: rgb(183, 220, 248);
     border-radius: 15px;
     border: 2px solid grey;
     margin: 30px 30px;
@@ -305,17 +291,11 @@ img{
 .orchid h1{
     color: rgb(145, 13, 13);
     font-weight: bolder;
-   margin-top: -13px;
-   text-decoration: underline;
+    margin-top: -13px;
+    text-decoration: underline;
 
 }
-.orchid p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .orchid img{
     width: 150px;
     margin: 5px 10px;
@@ -328,7 +308,7 @@ img{
     font-weight: bolder;
     padding: 3px 5px;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
 
 }
@@ -336,6 +316,7 @@ img{
 /* ------------------------------------------carnation---------------------------- */
 
 .carnation{
+    background-color: rgb(183, 220, 248);
     border-radius: 15px;
     border: 2px solid grey;
     margin: 30px 30px;
@@ -347,17 +328,11 @@ img{
 .carnation h1{
     color: rgb(238, 142, 17);
     font-weight: bolder;
-   margin-top: -9px;
-   text-decoration: underline;
+    margin-top: -9px;
+    text-decoration: underline;
 
 }
-.carnation p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .carnation img{
     padding-top: 20px;
     width: 280px;
@@ -379,6 +354,7 @@ img{
 /* -----------------------------jasmin----------------------------------- */
 
 .jasmin{
+    background-color: rgb(183, 220, 248);
     border-radius: 15px;
     border: 2px solid grey;
     margin: 30px 30px;
@@ -389,17 +365,11 @@ img{
 .jasmin h1{
     color: rgb(137, 137, 130);
     font-weight: bolder;
-   margin-top: -9px;
-   text-decoration: underline;
+    margin-top: -9px;
+    text-decoration: underline;
 
 }
-.jasmin p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .jasmin img{
     padding-top: 20px;
     width: 270px;
@@ -421,6 +391,7 @@ img{
 /* ----------------------------------lilies------------------------------------ */
 
 .lilies{
+    background-color: rgb(183, 220, 248);
     border-radius: 15px;
     border: 2px solid grey;
     margin: 30px 30px;
@@ -431,17 +402,11 @@ img{
 .lilies h1{
     color: rgb(2, 13, 221);
     font-weight: bolder;
-   margin-top: -9px;
-   text-decoration: underline;
+    margin-top: -9px;
+    text-decoration: underline;
 
 }
-.lilies p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .lilies img{
     padding-top: 20px;
     width: 270px;
@@ -464,6 +429,7 @@ img{
 /* ----------------------------------gladiolus------------------------------------ */
 
 .gladiolus{
+    background-color: rgb(183, 220, 248);
    border-radius: 15px;
    border: 2px solid grey;
    margin-left: 250px;
@@ -479,13 +445,7 @@ img{
    text-decoration: underline;
 
 }
-.gladiolus p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .gladiolus img{
     width: 270px;                          
     margin: 5px 10px;
@@ -493,19 +453,20 @@ img{
 
 }
 .gladiolus button{
- 
+    margin-bottom: 20px;
     background-color: rgb(255, 255, 255);
     color: rgb(9, 9, 9);
     font-weight: bolder;
     padding: 3px 5px;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
 }
 
 /* ---------------------------------------tuberose----------------------------- */
 
 .tuberose{
+    background-color: rgb(183, 220, 248);
     border: 2px solid grey;
     margin: 30px 30px;
     align-items: center;
@@ -521,13 +482,7 @@ img{
    text-decoration: underline;
 
 }
-.tuberose p{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-weight: bolder;
-    font-size: 15px;
 
-}
 .tuberose img{
     width: 170px;
     height: 270px;
@@ -541,7 +496,7 @@ img{
     font-weight: bolder;
     padding: 3px 5px;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     border-radius: 8px;
 
 }
@@ -551,6 +506,44 @@ img{
     text-decoration: underline overline rgb(255, 255, 255);
     font-weight: bolder;
     font-size: 19px;
+}
+
+/* -----------------------------footer part---------------------------- */
+
+.first{
+    background-color: rgb(40, 83, 83);
+    top: 2290.6px;
+    width: 1430px;
+    position: absolute;
+    height: 100px;
+    padding: 50px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    color: rgb(145, 146, 147);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+
+}
+
+.div1 {
+    width: 300px;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    color: aliceblue;
+    text-decoration: underline;
+
 }
 
 
@@ -563,7 +556,6 @@ img{
 
      .nav-bar{
         width: 100%; 
-         /* padding-bottom: 60px; */
         align-items: center;
         display: flex;
         top: 0; 
@@ -617,6 +609,7 @@ img{
         font-size: 30px;
         text-align: center;
         padding: 70px 40px;
+       margin-top: 50px;
        
 
     }
@@ -648,13 +641,14 @@ img{
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 450px;
+        height: 470px;
         background-color: bisque;
         
     }
     
     .rose img{
        width: auto;
+       margin-top: 20px;
       
     }
     
@@ -733,12 +727,10 @@ img{
     /* ------------------------------------orchid----------------------------------- */
     
     .orchid{
-        border: 2px solid grey;
+
         margin: 40px 40px;
         margin-left: 80px;
         margin-right: 80px;
-        align-items: center;
-        text-align: center;
         width: 100%;
         height: 470px;
         background-color: bisque;
@@ -747,7 +739,12 @@ img{
    
     .orchid img{
         width: auto; 
+        margin-top: 20px;
     
+    }
+
+    .orchid h1{
+        padding-top: 10px;
     }
     .orchid button{
         margin : 10px ; 
@@ -837,8 +834,12 @@ img{
     
     .gladiolus img{
         width: auto;                          
-         
+        margin-top: 15px;
     
+    }
+
+    .gladiolus h1{
+        padding-top: 10px;
     }
     .gladiolus button{
      
@@ -856,23 +857,57 @@ img{
         width: 100%;
         height: 470px;
         background-color: bisque;
+
     }
     
     .tuberose img{
         width: auto;
+        margin-top: 20px;
+    }
+
+    .tuberose h1{
+        padding-top: 10px;
     }
     .tuberose button{
         margin : 10px ; 
-        margin-bottom: 100px;
+        /* margin-bottom: 100px; */
     
     }
 
     .color{
-        background: rgb(180,58,177);
-        background: linear-gradient(90deg, rgba(180,58,177,1) 12%, rgba(134,29,253,1) 60%, rgba(120,227,237,1) 100%);
+       
         text-decoration: overline underline rgb(138, 133, 235);
         font-weight: bolder;
-        color: white;
+        color: rgb(6, 111, 61);
+    }
+
+    .container2 p{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .container2 button{
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        background: rgb(180,58,177);
+        background: linear-gradient(90deg, rgba(180,58,177,1) 12%, rgba(134,29,253,1) 60%, rgba(120,227,237,1) 100%);
+
+    }
+
+    /* --------------------------------footer part----------------------------- */
+
+    .first{
+        width: 460px;
+        top : 5701.8px;
+        flex-wrap: wrap;
+        height: fit-content;
+        text-align: center;
+        align-items: center;
+       
+
+    }
+
+    .div1{
+        padding: 50px;
     }
     
 

@@ -1,0 +1,64 @@
+.log{
+    background-color: rgb(249, 198, 98);
+    flex-wrap: wrap ;
+    text-align: center;
+    padding: 100px;
+    width: auto;
+    height: 500px;
+}
+
+.log1{
+    background-color: blanchedalmond ;
+    width: 270px;
+    padding: 30px ; 
+    margin-left: 480px;  
+    
+}
+.log h1{
+    color: blue;
+    text-decoration: underline white;
+}
+.log input{
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: rgb(220, 125, 255);
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+    border: 3px solid gold;  
+}
+.log button{
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    font-weight: bolder;
+}
+.log button:hover{
+    cursor: pointer;
+    background: rgb(7,3,78);
+    background: linear-gradient(90deg, rgba(7,3,78,1) 0%, rgba(3,1,57,1) 0%, rgba(9,9,167,1) 0%, rgba(0,249,255,1) 100%);
+}
+
+@media (max-width :576px){
+    .log h1{
+     font-size: 20px;
+     color: rgb(241, 11, 226);
+    }
+    .log1{
+        background-color: rgb(164, 255, 99) ;
+        width: 270px;
+        opacity: 70%;
+        padding: 30px ; 
+        margin-left: 12px;
+        margin-top: 40px;
+        
+    }
+    .log{
+        background-color: rgb(83, 186, 255);
+       
+    }
+
+}

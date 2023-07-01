@@ -1,0 +1,247 @@
+body{
+    background-color: rgb(216, 84, 249);
+}
+/* ---------------for all colors------------- */
+
+.row-1{
+    margin: 50px auto;
+    align-items: center; 
+}
+.row-1 h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.flower1{
+    border: 3px solid rgb(2, 2, 2);
+    width: 500px;
+    height: 460px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 15px;
+    background-color: rgb(80, 240, 255);
+}
+.flower1 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+.flower1 img{
+    border-radius: 15px;
+    width: 100%;
+}
+.flower1 button{
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 35px;
+    cursor: pointer;
+    
+    border: 3px solid rgb(113, 113, 113);   
+}
+
+/* ----------------single row-2 color flower--------------- */
+.row-2{
+    display: flex;
+}
+
+.flower2{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height:600px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 15px;
+    background-color: rgb(80, 240, 255);
+    margin-left: 150px;
+    
+   
+}
+.flower2 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* ------------------flower-3--------------- */
+.flower3{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height:630px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 15px;
+    margin-left: 100px;
+    background-color: rgb(80, 240, 255);
+}
+.flower3 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* ------------flower-4------------- */
+
+.flower4{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height:560px;
+    text-align: center;
+    margin: 50px;
+    border-radius: 15px;
+    margin-left: 100px;
+    background-color: rgb(80, 240, 255);
+}
+.flower4 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* ----------------single row-3 color flower--------------- */
+.row-3{
+    display: flex;
+    align-items: center;
+    
+}
+
+.flower5{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 150px;
+    border-radius: 15px;
+    background-color: rgb(80, 240, 255);
+}
+.flower5 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+/* ----------flower-6-------------- */
+
+.flower6{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height: 360px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 100px;
+    border-radius: 15px;
+    background-color: rgb(80, 240, 255);
+}
+.flower6 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+/* -------------------flower-7----------------- */
+.flower7{
+    border: 3px solid rgb(2, 2, 2);
+    width: 300px;
+    height: 430px;
+    text-align: center;
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 110px;
+    border-radius: 15px;
+    background-color: rgb(80, 240, 255);
+}
+.flower7 h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.row-1 img{
+    border-radius: 15px;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    
+}
+
+.row-2 img{
+    border-radius: 15px;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.row-3 img{
+    border-radius: 15px;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+button{
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 35px;
+    cursor: pointer;
+    color: white;
+    background: rgb(88,221,242);
+    background: linear-gradient(90deg, rgba(88,221,242,1) 0%, rgba(255,73,50,1) 0%, rgba(251,66,238,1) 74%, rgba(255,0,237,1) 100%, rgba(9,9,167,1) 100%, rgba(255,0,237,1) 100%, rgba(251,66,238,1) 100%);
+    border: 3px solid rgb(113, 113, 113);   
+}
+
+
+.color{
+    color: rgb(223, 255, 14);
+    font-weight: bolder;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+@media (max-width:576px){
+    body{
+        background-color: rgb(165, 79, 246);
+    }
+    .flower1{
+        width: 400px;
+        height: 400px;
+        margin-left: 63px;
+    }
+    .flower2{
+        margin-left: 113px; 
+    }
+    .flower3{
+        margin-left: 113px; 
+    }
+    .flower4{
+        margin-left: 113px; 
+    }
+    .flower5{
+        margin-left: 113px; 
+    }
+    .flower6{
+        margin-left: 113px; 
+    }
+    .flower7{
+        margin-left: 115px; 
+    }
+    .row-2{
+        flex-wrap: wrap;
+       
+    }
+    .row-3{
+        flex-wrap: wrap;
+    }
+    hr{
+        display: none;
+    }
+}

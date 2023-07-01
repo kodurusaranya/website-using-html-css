@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(100, 0, 125);
+}
+
+
+.row{
+    margin: 50px auto;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+}
+
+.flower1{
+    border: 3px solid rgb(2, 2, 2);
+    width: 400px;
+    height: 770px;
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 15px;
+    background-color:  rgb(189, 251, 207);
+}
+
+
+
+.flower2{
+    border: 3px solid rgb(2, 2, 2);
+    width: 400px;
+    height:440px;
+    border-radius: 15px;
+    background-color:  rgb(189, 251, 207);
+    margin-left: 150px;
+    
+   
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+img{
+    border-radius: 15px;
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+
+button{
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: bolder;
+    border-radius: 35px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+    background-color: rgb(198, 0, 184);
+    border: 3px solid rgb(255, 255, 255);   
+}
+
+
+button:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px 5px orangered;
+    background: rgb(88,221,242);
+    border: none;
+    background: linear-gradient(90deg, rgba(88,221,242,1) 0%, rgba(255,73,50,1) 0%, rgba(251,66,238,1) 74%, rgba(255,0,237,1) 100%, rgba(9,9,167,1) 100%, rgba(255,0,237,1) 100%, rgba(251,66,238,1) 100%);
+}
+
+
+.color{
+    color: rgb(223, 80, 255);
+    font-weight: bolder;
+    
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+@media (max-width:576px){
+    body{
+        background-color: rgb(144, 117, 0);
+    }
+    .row{
+        flex-wrap: wrap;
+       
+       
+    }
+    .flower1{
+        width: 400px;
+        height: 770px;
+        margin-left: 65px;
+        margin-bottom: 40px;
+    }
+    .flower2{
+        width: 400px;
+        margin-left: 65px;
+        height: 440px;
+    }
+    img{
+        width: 400px;
+    }
+  
+}

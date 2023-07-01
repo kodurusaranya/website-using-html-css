@@ -47,12 +47,17 @@ body{
   cursor: pointer;
 }
 
+.nav-bar ul li a{
+    color: black;
+    padding-left: 2px;
+}
+
 .nav-bar ul li:hover{
     border: none;
     /* padding: 9px 7px;  */
     background-color: rgb(244, 248, 248);
     color: rgb(67, 65, 65);
-    margin-right: 8px; 
+    margin-right: 8px;  
     border-radius: 10px;
     cursor: pointer;
 }
@@ -98,11 +103,15 @@ body{
 .container2{
     background-color: pink;  
     width: 1529.54px;
-    height: 1440px;
+    height: 1540px;
     top: 810.6px;
     justify-content: space-between;
     position: absolute;
     padding-top: 40px;
+}
+.container2 h1{
+    color: brown;
+    text-decoration: underline black;
 }
 
 .container2 p{
@@ -112,6 +121,11 @@ body{
     font-size: 15px;
 
 }
+
+.container2 a{
+    margin-left: 40px;
+    align-items: center;
+ }
 
 .container2 button{
 cursor: pointer;
@@ -140,11 +154,12 @@ cursor: pointer;
 .rose h1{
     color: rgb(244, 23, 23);
     font-weight: bolder;
-   margin-top: -13px;
+   margin-top: -5px;
    text-decoration: underline;
 }
 
 .rose img{
+    padding-top: 10px;
     width: 150px;
     margin: 5px 10px;
    
@@ -175,7 +190,7 @@ cursor: pointer;
 .gerbera h1{
     color: rgb(157, 23, 235);
     font-weight: bolder;
-   margin-top: -9px;
+   margin-top: -5px;
    text-decoration: underline;
 
 }
@@ -252,7 +267,7 @@ cursor: pointer;
 .daisies h1{
     color: rgb(214, 24, 235);
     font-weight: bolder;
-   margin-top: -9px;
+   margin-top: -5px;
    text-decoration: underline;
 
 }
@@ -291,12 +306,13 @@ cursor: pointer;
 .orchid h1{
     color: rgb(145, 13, 13);
     font-weight: bolder;
-    margin-top: -13px;
+    margin-top: -5px;
     text-decoration: underline;
 
 }
 
 .orchid img{
+    padding-top: 10px;
     width: 150px;
     margin: 5px 10px;
    
@@ -328,7 +344,7 @@ cursor: pointer;
 .carnation h1{
     color: rgb(238, 142, 17);
     font-weight: bolder;
-    margin-top: -9px;
+    margin-top: -5px;
     text-decoration: underline;
 
 }
@@ -365,7 +381,7 @@ cursor: pointer;
 .jasmin h1{
     color: rgb(137, 137, 130);
     font-weight: bolder;
-    margin-top: -9px;
+    margin-top: -5px;
     text-decoration: underline;
 
 }
@@ -402,7 +418,7 @@ cursor: pointer;
 .lilies h1{
     color: rgb(2, 13, 221);
     font-weight: bolder;
-    margin-top: -9px;
+    margin-top: -5px;
     text-decoration: underline;
 
 }
@@ -441,7 +457,7 @@ cursor: pointer;
 .gladiolus h1{
    color: rgb(188, 136, 2);
    font-weight: bolder;
-   margin-top: -13px;
+   margin-top: -5px;
    text-decoration: underline;
 
 }
@@ -449,7 +465,7 @@ cursor: pointer;
 .gladiolus img{
     width: 270px;                          
     margin: 5px 10px;
-   
+    padding-top: 10px;
 
 }
 .gladiolus button{
@@ -478,8 +494,8 @@ cursor: pointer;
 .tuberose h1{
     color: rgb(150, 150, 150);
     font-weight: bolder;
-   margin-top: -13px;
-   text-decoration: underline;
+    margin-top: -5px;
+    text-decoration: underline;
 
 }
 
@@ -487,6 +503,7 @@ cursor: pointer;
     width: 170px;
     height: 270px;
     margin: 5px 10px;
+    padding-top: 10px;
    
 
 }
@@ -512,15 +529,15 @@ cursor: pointer;
 
 .first{
     background-color: rgb(40, 83, 83);
-    top: 2290.6px;
+    top: 2390.6px;
     width: 1430px;
     position: absolute;
     height: 100px;
     padding: 50px;
     justify-content: space-between;
     display: flex;
-    align-items: center;
-    text-align: center;
+     align-items: center;
+    text-align: center; 
 }
 
 a {
@@ -528,16 +545,16 @@ a {
     /* color: rgb(255, 255, 255); */
     color: rgb(145, 146, 147);
     display: flex;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
     padding-left: 80px;
 
 }
 
 .div1 {
     width: 300px;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
 }
 
 h2 {
@@ -573,10 +590,9 @@ h2 {
        
     }
 
-    .home{
+    .cancel{
         display: none;
     }
-
     .contact-us{
         display: none;
     }
@@ -598,6 +614,7 @@ h2 {
         background-image: url(images/rose.webp);
         background-position: fixed;
         background-repeat: no-repeat; 
+       
         
     }
 
@@ -619,11 +636,47 @@ h2 {
     .container2{
         background-color: rgb(24, 239, 254);  
         width: 560.45px;
-        height: 5100px;
+        height: 5300px;
         top: 562.48px;
         position: absolute;
         padding-top: 40px;
     }
+
+    .rose a{
+        margin-left: 76px;
+     }
+
+     
+    .tulip a{
+        margin-left: 83px;
+     }
+
+     .daisies a{
+        margin-left: 72px;
+     }
+
+     .gerbera a{
+        margin-left: 68px
+     } 
+     .carnation a{
+        margin-left: 61px
+     } 
+     .gladiolus a{
+        margin-left: 59.7px
+     } 
+     .tuberose a{
+        margin-left: 66px
+     } 
+     .orchid a{
+        margin-left: 67px;
+     }
+     .jasmin a{
+        margin-left: 70px;
+     }
+     .lilies a{
+        margin-left: 79px;
+     }
+     
 
     .row-1{
         flex-wrap: wrap;
@@ -641,7 +694,7 @@ h2 {
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 470px;
+        height: 490px;
         background-color: bisque;
         
     }
@@ -654,7 +707,7 @@ h2 {
     
     .rose button{
         margin : 10px ; 
-        margin-bottom: 100px;
+       
     
     }
     
@@ -676,7 +729,7 @@ h2 {
     }
     .gerbera button{
         margin : 10px ; 
-        margin-bottom: 100px;
+       
     
     }
     
@@ -689,7 +742,7 @@ h2 {
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 395px;
+        height: 405px;
         background-color: bisque;
     
     }
@@ -732,7 +785,7 @@ h2 {
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 470px;
+        height: 490px;
         background-color: bisque;
     
     }
@@ -748,7 +801,7 @@ h2 {
     }
     .orchid button{
         margin : 10px ; 
-        margin-bottom: 100px;
+       
     }
     
     /* ------------------------------------------carnation---------------------------- */
@@ -804,7 +857,7 @@ h2 {
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 395px;
+        height: 400px;
         background-color: bisque;
     }
    
@@ -814,7 +867,7 @@ h2 {
     }
     .lilies button{
         margin : 10px ; 
-        margin-bottom: 100px;
+       
     }
     
     /* ----------------------------------gladiolus------------------------------------ */
@@ -828,7 +881,7 @@ h2 {
         align-items: center;
         text-align: center;
         width: 100%;
-        height: 420px;
+        height: 440px;
         background-color: bisque;
     }
     
@@ -855,7 +908,7 @@ h2 {
         margin-left: 80px;
         margin-right: 80px;
         width: 100%;
-        height: 470px;
+        height: 490px;
         background-color: bisque;
 
     }
@@ -870,7 +923,7 @@ h2 {
     }
     .tuberose button{
         margin : 10px ; 
-        /* margin-bottom: 100px; */
+       
     
     }
 
@@ -897,11 +950,10 @@ h2 {
 
     .first{
         width: 460px;
-        top : 5701.8px;
+        top : 5901.8px;
         flex-wrap: wrap;
         height: fit-content;
-        text-align: center;
-        align-items: center;
+       
        
 
     }

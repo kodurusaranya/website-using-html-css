@@ -1,164 +1,133 @@
 body{
-    background-color: rgb(216, 84, 249);
+    background-color: rgb(0, 82, 65);
+    align-items: center;
+
 }
 /* ---------------for all colors------------- */
 
-.row-1{
+.row{
+    flex-wrap: wrap;
+    text-align: center;
     margin: 50px auto;
     align-items: center; 
 }
-.row-1 h1{
-    text-align: center;
-    color: rgb(255, 255, 255);
+h1{
+    text-decoration: underline overline white;
+    color: white;
 }
+
+
 .flower1{
     border: 3px solid rgb(2, 2, 2);
     width: 500px;
-    height: 460px;
-    text-align: center;
+    height: 670px;
     margin-left: 500px;
+    margin-bottom: 50px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
-}
-.flower1 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-.flower1 img{
-    border-radius: 15px;
-    width: 100%;
-}
-.flower1 button{
-    padding: 10px 25px;
-    font-weight: bolder;
-    border-radius: 35px;
-    cursor: pointer;
-    
-    border: 3px solid rgb(113, 113, 113);   
+    background-color: rgb(231, 134, 255);
 }
 
+
 /* ----------------single row-2 color flower--------------- */
-.row-2{
-    display: flex;
-}
 
 .flower2{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height:600px;
-    text-align: center;
+    width: 400px;
+    height:440px;
     margin: 50px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
-    margin-left: 150px;
-    
-   
+    background-color:rgb(231, 134, 255);
+    margin-left: 540px;
 }
-.flower2 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
+
 
 /* ------------------flower-3--------------- */
 .flower3{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height:630px;
-    text-align: center;
+    width: 400px;
+    height:450px;
     margin: 50px;
     border-radius: 15px;
-    margin-left: 100px;
-    background-color: rgb(80, 240, 255);
+    margin-left: 540px;
+    background-color: rgb(231, 134, 255);
 }
-.flower3 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
+
 
 /* ------------flower-4------------- */
 
 .flower4{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height:560px;
-    text-align: center;
+    width: 400px;
+    height:440px;
     margin: 50px;
     border-radius: 15px;
-    margin-left: 100px;
-    background-color: rgb(80, 240, 255);
+    margin-left: 540px;
+    background-color: rgb(231, 134, 255);
 }
-.flower4 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-
 
 
 /* ----------------single row-3 color flower--------------- */
-.row-3{
-    display: flex;
-    align-items: center;
-    
-}
 
 .flower5{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height: 360px;
-    text-align: center;
+    width: 400px;
+    height: 760px;
     margin: 50px;
-    margin-left: 150px;
+    margin-left: 540px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
-}
-.flower5 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+    background-color: rgb(231, 134, 255);
 }
 
 /* ----------flower-6-------------- */
 
 .flower6{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height: 360px;
-    text-align: center;
+    width: 400px;
+    height: 440px;
     margin: 50px;
-    margin-left: 100px;
+    margin-left: 540px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
+    background-color: rgb(231, 134, 255);
 }
-.flower6 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-
 
 /* -------------------flower-7----------------- */
 .flower7{
     border: 3px solid rgb(2, 2, 2);
-    width: 300px;
-    height: 430px;
-    text-align: center;
+    width: 400px;
+    height: 780px;
     margin: 50px;
-    margin-left: 100px;
-    margin-top: 110px;
+    margin-left: 540px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
+    background-color: rgb(231, 134, 255);
 }
-.flower7 h3{
+.flower8{
+    border: 3px solid rgb(2, 2, 2);
+    width: 400px;
+    height: 430px;
+    margin: 50px;
+    margin-left: 540px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(231, 134, 255);
+}
+.flower9{
+    border: 3px solid rgb(2, 2, 2);
+    width: 400px;
+    height: 750px;
+    margin: 50px;
+    margin-left: 540px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: rgb(231, 134, 255);
+}
+
+h3{
     margin-top: 40px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
 }
 
-.row-1 img{
+img{
     border-radius: 15px;
     width: 100%;
     border-bottom-left-radius: 0px;
@@ -166,24 +135,6 @@ body{
     border-top-left-radius: 11px;
     border-top-right-radius: 11px;
     
-}
-
-.row-2 img{
-    border-radius: 15px;
-    width: 100%;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
-}
-
-.row-3 img{
-    border-radius: 15px;
-    width: 100%;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-left-radius: 11px;
-    border-top-right-radius: 11px;
 }
 
 button{
@@ -191,10 +142,15 @@ button{
     font-weight: bolder;
     border-radius: 35px;
     cursor: pointer;
-    color: white;
-    background: rgb(88,221,242);
-    background: linear-gradient(90deg, rgba(88,221,242,1) 0%, rgba(255,73,50,1) 0%, rgba(251,66,238,1) 74%, rgba(255,0,237,1) 100%, rgba(9,9,167,1) 100%, rgba(255,0,237,1) 100%, rgba(251,66,238,1) 100%);
+    color: rgb(0, 0, 0);
+    background-color: rgb(172, 215, 0);
     border: 3px solid rgb(113, 113, 113);   
+}
+button:hover{
+    background-color: plum;
+    color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: 0px 0px 7px 7px plum;
 }
 
 
@@ -209,39 +165,74 @@ button{
 
 @media (max-width:576px){
     body{
-        background-color: rgb(165, 79, 246);
+        background-color: rgb(91, 0, 176);
+    }
+    .row{
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        margin: 50px auto;
+    
     }
     .flower1{
-        width: 400px;
-        height: 400px;
-        margin-left: 63px;
+        width: 370px;
+        height: 540px;
+        margin-left: 70px;
+        margin-top: 50px;
     }
     .flower2{
-        margin-left: 113px; 
-    }
-    .flower3{
-        margin-left: 113px; 
-    }
-    .flower4{
-        margin-left: 113px; 
-    }
-    .flower5{
-        margin-left: 113px; 
-    }
-    .flower6{
-        margin-left: 113px; 
-    }
-    .flower7{
-        margin-left: 115px; 
-    }
-    .row-2{
-        flex-wrap: wrap;
+        width: 370px;
+        height: 410px;
+        margin-left: 70px;
+        margin-top: 50px;
        
     }
-    .row-3{
-        flex-wrap: wrap;
+    .flower3{
+        width: 370px;
+        height: 410px;
+        margin-top: 50px;
+        margin-left: 70px;
     }
-    hr{
-        display: none;
+    .flower4{
+        width: 370px;
+        height: 410px;
+        margin-left: 70px;
+        margin-top: 50px;
     }
+    .flower5{
+        width: 370px;
+        height: 720px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .flower6{
+        width: 370px;
+        height: 410px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+    .flower7{
+        width: 370px;
+        height: 710px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .flower8{
+        width: 370px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .flower9{
+        width: 370px;
+        height: 730px;
+        margin-left: 70px;
+        margin-top: 50px;
+    }
+   
+   img{
+    width: 370px;
+   }
+   hr{
+    display: none;
+   }
 }

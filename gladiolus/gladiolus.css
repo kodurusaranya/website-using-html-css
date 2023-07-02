@@ -150,9 +150,7 @@ button:hover{
     .flower1 img{
         width: 370px;
     }
-    h1{
-        margin: 10px;
-    }
+   
     button{
         margin-top: 20px;
     }
@@ -166,6 +164,7 @@ button:hover{
         width: 270px;
     }
     .flower2 h1{
+        font-size: 30px;
         margin: 5px ;
     }
     .flower3{

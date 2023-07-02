@@ -1,81 +1,70 @@
 body{
-    background-color: rgb(216, 84, 249);
+    background-color: rgb(146, 0, 182);
 }
 /* ---------------for all colors------------- */
 
 .row-1{
     margin: 50px auto;
     align-items: center; 
-}
-.row-1 h1{
     text-align: center;
-    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
 }
+.row-2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.row-3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+
 .flower1{
     border: 3px solid rgb(2, 2, 2);
     width: 500px;
-    height: 460px;
+    height: 630px;
     text-align: center;
-    margin-left: 500px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
+    background-color: rgb(255, 244, 149);
 }
-.flower1 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-.flower1 img{
+.flower8{
+    border: 3px solid rgb(2, 2, 2);
+    width: 500px;
+    height: 500px;
     border-radius: 15px;
-    width: 100%;
-}
-.flower1 button{
-    padding: 10px 25px;
-    font-weight: bolder;
-    border-radius: 35px;
-    cursor: pointer;
-    
-    border: 3px solid rgb(113, 113, 113);   
+    background-color: rgb(255, 244, 149);
 }
 
+
+
 /* ----------------single row-2 color flower--------------- */
-.row-2{
-    display: flex;
-}
 
 .flower2{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
-    height:600px;
+    height:700px;
     text-align: center;
     margin: 50px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
-    margin-left: 150px;
-    
-   
+    background-color: rgb(255, 244, 149);
 }
-.flower2 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
+
 
 /* ------------------flower-3--------------- */
 .flower3{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
-    height:630px;
-    text-align: center;
+    height:570px;
     margin: 50px;
     border-radius: 15px;
+    text-align: center;
+    
     margin-left: 100px;
-    background-color: rgb(80, 240, 255);
-}
-.flower3 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+    background-color:rgb(255, 244, 149);
 }
 
 /* ------------flower-4------------- */
@@ -83,60 +72,39 @@ body{
 .flower4{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
-    height:560px;
-    text-align: center;
+    height:610px;
     margin: 50px;
+    text-align: center;
     border-radius: 15px;
     margin-left: 100px;
-    background-color: rgb(80, 240, 255);
+    background-color:rgb(255, 244, 149);
 }
-.flower4 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
-
 
 
 /* ----------------single row-3 color flower--------------- */
-.row-3{
-    display: flex;
-    align-items: center;
-    
-}
+
 
 .flower5{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
     height: 360px;
-    text-align: center;
     margin: 50px;
-    margin-left: 150px;
+    margin-top: -200px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
+    background-color: rgb(255, 244, 149);
 }
-.flower5 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-}
+
 
 /* ----------flower-6-------------- */
 
 .flower6{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
-    height: 360px;
+    height: 600px;
     text-align: center;
     margin: 50px;
-    margin-left: 100px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
-}
-.flower6 h3{
-    margin-top: 40px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
+    background-color: rgb(255, 244, 149);
 }
 
 
@@ -144,15 +112,13 @@ body{
 .flower7{
     border: 3px solid rgb(2, 2, 2);
     width: 300px;
-    height: 430px;
-    text-align: center;
+    height: 450px;
     margin: 50px;
-    margin-left: 100px;
-    margin-top: 110px;
+    margin-top: -110px;
     border-radius: 15px;
-    background-color: rgb(80, 240, 255);
+    background-color: rgb(255, 244, 149);
 }
-.flower7 h3{
+h3{
     margin-top: 40px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
@@ -191,15 +157,24 @@ button{
     font-weight: bolder;
     border-radius: 35px;
     cursor: pointer;
-    color: white;
-    background: rgb(88,221,242);
-    background: linear-gradient(90deg, rgba(88,221,242,1) 0%, rgba(255,73,50,1) 0%, rgba(251,66,238,1) 74%, rgba(255,0,237,1) 100%, rgba(9,9,167,1) 100%, rgba(255,0,237,1) 100%, rgba(251,66,238,1) 100%);
-    border: 3px solid rgb(113, 113, 113);   
+    color: rgb(7, 69, 212);
+    background-color: white;
+    border: 3px solid rgb(0, 0, 0); 
+    
+}
+
+button:hover{
+    background-color: black;
+    box-shadow: 0px 0px 10px 10px white;
+    border: none; 
+    color: rgb(255, 255, 255);
+    
+
 }
 
 
 .color{
-    color: rgb(223, 255, 14);
+    color: rgb(201, 4, 178);
     font-weight: bolder;
     
 }
@@ -209,37 +184,61 @@ button{
 
 @media (max-width:576px){
     body{
-        background-color: rgb(165, 79, 246);
+        background-color: rgb(189, 1, 139);
     }
     .flower1{
-        width: 400px;
-        height: 400px;
-        margin-left: 63px;
+        width: 370px;
+        height: 510px;
+        margin-left: 3px;
     }
-    .flower2{
-        margin-left: 113px; 
+    .flower2{ 
+        margin-top: 50px;
+        height: 700px;
     }
-    .flower3{
-        margin-left: 113px; 
+    .flower3{ 
+        height: 600px;
+        margin-top: 50px;
+        margin-left: 60px;
     }
     .flower4{
-        margin-left: 113px; 
+        height: 620px;
+        margin-top: 50px;
+        margin-left: 55px;
     }
     .flower5{
-        margin-left: 113px; 
+        margin-top: 50px;
     }
-    .flower6{
-        margin-left: 113px; 
+    
+    .flower6{ 
+        height: 630px;
+        margin-top: 50px;
     }
     .flower7{
-        margin-left: 115px; 
+        margin-top: 50px;
+        height: 470px;
+    }
+    .flower8{
+        margin-top: 50px;
+        height: 360px;
+        width: 300px;
+        margin-top: 50px;
+    }
+    img{
+        width: 370px;
+    }
+    .row-1{
+        flex-wrap: wrap;
     }
     .row-2{
         flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 5px;
        
     }
     .row-3{
         flex-wrap: wrap;
+        margin-top: 50px;
+        margin-left: 10px;
     }
     hr{
         display: none;

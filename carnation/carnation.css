@@ -7,8 +7,8 @@ body{
     margin: 50px auto;
     align-items: center; 
 }
-.row-1 h1{
-    text-align: center;
+h1{
+     text-decoration: underline overline white;
     color: rgb(255, 255, 255);
 }
 .flower1{
@@ -214,25 +214,39 @@ button{
     .flower1{
         width: 400px;
         height: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         margin-left: 63px;
     }
     .flower2{
         margin-left: 113px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .flower3{
         margin-left: 113px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .flower4{
         margin-left: 113px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .flower5{
         margin-left: 113px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .flower6{
+        margin-top: 50px;
+        margin-bottom: 50px;
         margin-left: 113px; 
     }
     .flower7{
         margin-left: 115px; 
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .row-2{
         flex-wrap: wrap;
@@ -241,7 +255,5 @@ button{
     .row-3{
         flex-wrap: wrap;
     }
-    hr{
-        display: none;
-    }
+
 }

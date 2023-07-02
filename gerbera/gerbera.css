@@ -4,6 +4,11 @@ body{
     text-align: center;
     background-color: rgb(60, 60, 253);  
 }
+p{
+    font-size: 30px;
+    color: white;
+    text-decoration: underline overline white;
+}
 
 .row-1{
     flex-wrap: wrap;
